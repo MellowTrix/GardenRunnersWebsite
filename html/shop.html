@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" type="text/css" href = "../css/styling.css">
+    <link rel = "stylesheet" type="text/css" href = "../css/Normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Shop - Garden Runners</title>
+</head>
+<body>
+<div id="container">
+<header>
+    <nav>
+        <a href="index.html" class="link">Home</a>
+        <a href="HowToPlay.html" class="link">How To Play</a>
+        <a>Shop</a>
+        <a href="moodboard.html" class="link">Moodboard</a>
+    </nav>
+</header>
+<main id="main">
+    <div class="gridContainer">
+        <div class="MainTitleDiv">
+            <h1 class="MainTitle">Garden Runners Shop</h1>
+        </div>
+
+        <div class="MainContent">
+            <article>
+                <h2>Wat verkopen we?</h2>
+                <p>We vonden het een leuk idee om race-grasmachines te verkopen in de stijl van "Garden runners".<br>
+                Deze grasmachines gaan dus verkrijgbaar zijn met een Garden Runners paintjob.<br>
+                Hier vindt u een video over hoe de grasmachine werkt.</p>
+            </article>
+            <article>
+                <h2>Specificaties</h2>
+                <p>Hieronder vindt u een lijst met de specificaties van de grasmachine:</p>
+                <ul>
+                    <li>Motor: Honda CBR 1000cc</li>
+                    <li>Vermogen: 200+pk</li>
+                    <li>Topsnelheid: 240+km/u</li>
+                    <li>0-100 snelheid: &lt; 3 seconden</li>
+                </ul>
+            </article>
+            <article>
+                <h2>Prijs</h2>
+                <p class="groteCijfers">€ 2.999,00</p>
+            </article>
+        </div>
+
+        <div class="SideContent">
+            <article>
+                <h2>Video</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YZukqQw5Xlo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <a href="https://www.youtube.com/channel/UCHk1Uzn0oqSUbMc56SAbFZw"><p id="youtubeLink">source: Youtube Channel</p></a>
+            </article>
+        </div>
+
+        <div class="OrderForm">
+            <article>
+                <h2>Bestel hier!</h2>
+                <form>
+                    <label for="nameF">Voornaam: </label>
+                    <input type="text" id="nameF"><br>
+                    <label for="nameL">Achternaam: </label>
+                    <input type="text" id="nameL"><br>
+                    <label for="adres">Adres: </label>
+                    <input type="text" id="adres"><br>
+                    <label for="mail">Email adres: </label>
+                    <input type="text" id="mail"><br>
+                    <label for="land">Selecteer uw land: </label>
+                    <select id="land">
+                        <option value="België">België</option>
+                        <option value="Nederland">Nederland</option>
+                        <option value="Frankrijk">Frankrijk</option>
+                        <option value="Duitsland">Duitsland</option>
+                        <option value="UK">Verenigd Koninkrijk</option>
+                    </select><br>
+                    <label for="blauw">Blauw</label>
+                    <input type="radio" id="blauw" name="kleur" checked>
+                    <label for="rood">rood</label>
+                    <input type="radio" id="rood" name="kleur">
+                    <label for="groen">groen</label>
+                    <input type="radio" id="groen" name="kleur">
+                    <label for="zwart">zwart</label>
+                    <input type="radio" id="zwart" name="kleur"><br>
+                    <input type="checkbox" id="niewsbrief">
+                    <label for="niewsbrief">Ik zou graag jullie nieuwsbrief ontvangen.</label><br>
+                    <input type="checkbox" id="voorwaarden">
+                    <label for="voorwaarden">Ik ga akkoord met jullie sericevoorwaarden.</label><br>
+                    <input type="submit" value="submit" id="submit">
+                </form>
+                <p id="bedankt"></p>
+            </article>
+        </div>
+    </div>
+</main>
+</div>
+<footer class="footer">
+    <div class="discordFooter">
+        <p class="footertext">Join onze discord hier!</p>
+        <a href="https://discord.gg/GbVYxc7x68" class="discordLink"><img id="discordLogo" alt="Discord icon" src="../media/Discord-Logo-Icon.png" width="50" height="50"></a>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="../javascript/scriptShop.js"></script>
+</body>
+</html>
